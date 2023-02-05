@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{62C56556-27E9-45A4-8C0E-9E757078B881}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My2Consumer", "My2Consumer\My2Consumer.csproj", "{28697CD4-CAFA-481B-B6C1-02A7D7ED06E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{62C56556-27E9-45A4-8C0E-9E757078B881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C56556-27E9-45A4-8C0E-9E757078B881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C56556-27E9-45A4-8C0E-9E757078B881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28697CD4-CAFA-481B-B6C1-02A7D7ED06E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28697CD4-CAFA-481B-B6C1-02A7D7ED06E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28697CD4-CAFA-481B-B6C1-02A7D7ED06E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28697CD4-CAFA-481B-B6C1-02A7D7ED06E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

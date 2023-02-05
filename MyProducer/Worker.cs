@@ -10,6 +10,7 @@ namespace MyProducer
     public class Worker : BackgroundService
     {
         private readonly IBus _bus;
+        private uint _counter = 0;
         public Worker(IBus bus)
         {
             _bus = bus;
@@ -20,7 +21,7 @@ namespace MyProducer
             {
                 await _bus.Publish(new HelloMessage
                 {
-                    Name = $"World-Msg #{DateTime.UtcNow.Ticks}"
+                    Name = $"World-Msg #{_counter++} / {DateTime.UtcNow.Ticks}"
                 }, stoppingToken);
 
                 await Task.Delay(1000, stoppingToken);
